@@ -1,0 +1,59 @@
+#servicos {
+    background-color: #001572;
+    min-height: 50vh;
+    padding: 10px 20px;
+    width: 100vw;
+}
+
+#servicos #text-servicos {
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-bottom: 40px;
+}
+
+#servicos .servicos-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#servicos .servico-conteiner {
+    background-color: rgb(202, 202, 202);
+    min-height: 30vh;
+    width: 30vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+#servicos .servico-conteiner:hover {
+    background-color: rgb(241, 241, 241);
+    transform: scale(1.05);
+}
+
+#servicos .servico-conteiner .imagem-servico {
+    max-width: 3vw;
+    max-height: 6vh;
+    object-fit: contain;
+    margin: 10px;
+}
+
+#servicos .servico-conteiner .nome-servico {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 900;
+    margin: 10px 0 20px 0;
+}
+
+#servicos .servico-conteiner .descricao-servico {
+    color: darkblue;
+    font-weight: 600;
+    font-size: 1vw;
+    margin: 0 20px 20px 20px;
+}
+

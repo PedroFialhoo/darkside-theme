@@ -1,0 +1,38 @@
+# ========================
+# Ignorar arquivos inúteis
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+
+# ========================
+# Ignorar pastas de editores
+# ========================
+.vscode/
+*.code-workspace
+.idea/
+
+# ========================
+# Ignorar arquivos temporários
+# ========================
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ========================
+# Ignorar dependências e builds (se estiver usando SCSS/JS tools)
+# ========================
+node_modules/
+dist/
+build/
+
+# ========================
+# Ignorar uploads (se por acaso usar no tema, o que não é recomendado)
+uploads/
+
+# ========================
+# Git ignorar arquivos de cache do PHP
+# ========================
+*.cache
+*.php~ 

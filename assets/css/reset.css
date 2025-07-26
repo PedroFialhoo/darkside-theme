@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}

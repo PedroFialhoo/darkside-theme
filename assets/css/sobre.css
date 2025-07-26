@@ -1,0 +1,47 @@
+#sobre{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 30px;
+}
+
+#sobre p{
+    color: black;
+}
+
+#sobre #container-img img{
+    max-height: 75vh;
+    width: 50vw;
+    object-fit: cover;    
+    object-position: 0 30%;
+    border-radius: 30px;
+}
+
+#sobre #container-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;    
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+#sobre #container-sobre h1{
+    font-size: 3vw;
+    color: darkblue;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+#sobre #container-sobre p{
+    font-size: 1.3vw;
+    max-width: 35vw;
+    text-align: right;
+    font-weight: 300;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
