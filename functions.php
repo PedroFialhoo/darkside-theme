@@ -198,3 +198,14 @@ function formatar_whatsapp($numero) {
   }
   return $numero;
 }
+
+function carregar_scripts_noticias() {
+  wp_enqueue_script(
+    'noticias-js',
+    get_template_directory_uri() . '/js/noticias.js',
+    array(),
+    null,
+    true
+  );
+}
+add_action('wp_enqueue_scripts', 'carregar_scripts_noticias');
