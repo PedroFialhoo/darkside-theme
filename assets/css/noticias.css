@@ -1,0 +1,37 @@
+#noticias-tecnologia {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  #noticias-tecnologia h2 {
+    color: #0073aa;
+    margin-bottom: 15px;
+  }
+  #lista-noticias {
+    list-style: none;
+    padding: 0;
+  }
+  #lista-noticias li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  #lista-noticias h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+  }
+  #lista-noticias p {
+    margin: 0 0 8px 0;
+    color: #333;
+  }
+  #lista-noticias a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #lista-noticias a:hover {
+    text-decoration: underline;
+  }
