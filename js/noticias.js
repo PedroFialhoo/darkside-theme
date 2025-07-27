@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const apiKey = "CHAVE-API"; 
+  const apiKey = "TOKEN-API";
   const url = `https://gnews.io/api/v4/search?q=programming OR tecnologia OR desenvolvimento&lang=en,pt&max=5&token=${apiKey}`;
 
   fetch(url)
@@ -14,9 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
       data.articles.forEach(noticia => {
         const li = document.createElement("li");
         li.innerHTML = `
+        <div class="noticia">
+          <img src="${noticia.image}">
           <h3>${noticia.title}</h3>
           <p>${noticia.description || ''}</p>
           <a href="${noticia.url}" target="_blank" rel="noopener noreferrer">Ler mais</a>
+        </div>
         `;
         lista.appendChild(li);
       });
