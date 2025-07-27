@@ -38,3 +38,54 @@
     max-height: 60vh;
 }
 
+
+@media (max-width: 1024px){
+
+#contato{
+    flex-direction: column;
+    height: 130vh;
+}
+
+#contato #banner-lateral{
+    width: 90vw;
+    height: 50vh;
+    background-position: center;
+}
+
+#contato #banner-lateral h1{
+    font-size: 7vw;
+    line-height: 5vh;
+}
+
+#contato #contato-form{
+    width: 90vw;    
+    min-height: 75vh;
+}
+
+
+}
+
+@media (max-width: 768px) {
+#contato{
+    min-height: 160vh;
+    max-height: 230vh;
+}
+
+#contato #banner-lateral{
+    height: 40vh;
+    background-image: url(../images/contato_cel.jpg);
+}
+
+#contato #banner-lateral h1{
+    font-size: 7vw;
+    line-height: 4vh;
+    margin: 20px;
+    max-width: 30vw;
+}
+
+#contato #contato-form{
+    min-height: 115vh;
+    max-height: 230vh;
+}
+
+}
