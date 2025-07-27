@@ -9,8 +9,10 @@
 <body>
     <main>
         <section id="noticias">
-            <h1>Últimas notícias de Tecnologia</h1>
-            <ul id="lista-noticias"></ul>
+            <div id="noticias-container">
+                <h1>Últimas notícias de Tecnologia</h1>
+                <ul id="lista-noticias"></ul>
+            </div>
         </section>
     </main>
 </body>
