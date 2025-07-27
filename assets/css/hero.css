@@ -58,3 +58,30 @@
     background-color: white;
 }
 
+
+@media (max-width: 1024px){
+
+#hero {
+    height: 40vh;
+}
+
+#banner h1{
+    font-size: 5vw;
+    max-width: 60vw;
+    text-align: center;
+}
+
+#banner p{
+    font-size: 3vw;
+    font-weight: 200px;
+    max-width: 70vw;
+    margin: 10px;
+    text-align: center;
+}
+
+#banner a{
+    font-size: 3vw;
+    max-width: 100vw;
+}
+
+}
