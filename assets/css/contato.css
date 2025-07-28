@@ -43,11 +43,11 @@
 
 #contato{
     flex-direction: column;
-    height: 130vh;
+    min-height: 80vh;
 }
 
 #contato #banner-lateral{
-    width: 90vw;
+    width: 80vw;
     height: 50vh;
     background-position: center;
 }
@@ -58,11 +58,9 @@
 }
 
 #contato #contato-form{
-    width: 90vw;    
-    min-height: 75vh;
+    width: 80vw;    
+    min-height: 40vh;
 }
-
-
 }
 
 @media (max-width: 768px) {

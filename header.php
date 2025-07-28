@@ -11,10 +11,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/WebForce.png" alt="Logo do site" id="img-logo" />
         <nav id="infos-header">
           <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#sobre">About</a></li>
-            <li><a href="#servicos">Services</a></li>
-            <li><a href="#contato">Contact</a></li>            
+            <li><a href="http://localhost/webforce_solutions/#hero">Home</a></li>
+            <li><a href="http://localhost/webforce_solutions/#sobre">About</a></li>
+            <li><a href="http://localhost/webforce_solutions/#servicos">Services</a></li>
+            <li><a href="http://localhost/webforce_solutions/#contato">Contact</a></li>            
           </ul>
         </nav>
   </header>
