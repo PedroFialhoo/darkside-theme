@@ -77,4 +77,8 @@
 #noticias-container  #lista-noticias img {
   max-width: 60vw;
 }
+
+#noticias-container  #lista-noticias h3 {
+    font-size: 4vw;
+  }
 }

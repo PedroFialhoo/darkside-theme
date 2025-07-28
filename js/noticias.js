@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const apiKey = "TOKEN-API";
+  const apiKey = "547ba13eda0d16e9d91e007b2f027ffa";
   const url = `https://gnews.io/api/v4/search?q=programming OR tecnologia OR desenvolvimento&lang=en,pt&max=5&token=${apiKey}`;
 
   fetch(url)

@@ -18,7 +18,7 @@
             if ($image_id) {
                 echo wp_get_attachment_image($image_id, 'medium', false, ['class' => 'imagem-servico']);
             } else {
-                echo '<img src="' . get_template_directory_uri() . '../assets/images/icon1.png" alt="Imagem padrão">';
+                echo '<img src="' . get_template_directory_uri() . '../assets/images/icon1.png" alt="Icone de serviço">';
             }
           ?>
           <h2 class="nome-servico">
@@ -35,7 +35,7 @@
             if ($image_id) {
                 echo wp_get_attachment_image($image_id, 'medium', false, ['class' => 'imagem-servico']);
             } else {
-                echo '<img src="' . get_template_directory_uri() . '../assets/images/icon2.png" alt="Imagem padrão">';
+                echo '<img src="' . get_template_directory_uri() . '../assets/images/icon2.png" alt="Icone de serviço">';
             }
           ?>
           <h2 class="nome-servico">
@@ -52,7 +52,7 @@
             if ($image_id) {
                 echo wp_get_attachment_image($image_id, 'medium', false, ['class' => 'imagem-servico']);
             } else {
-                echo '<img src="' . get_template_directory_uri() . '../assets/images/icon3.png" alt="Imagem padrão">';
+                echo '<img src="' . get_template_directory_uri() . '../assets/images/icon3.png" alt="Icone de serviço">';
             }
           ?>
           <h2 class="nome-servico">
