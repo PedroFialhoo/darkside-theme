@@ -44,7 +44,15 @@
     display: flex;
     flex-wrap: wrap;
 }
+#sobre #container-sobre a{
+    text-decoration: none;
+    color: darkblue;    
+    align-self: flex-end;
+}
 
+#sobre #container-sobre a:hover{
+    text-decoration: underline;
+}
 @media (max-width: 1024px){
 
 #sobre{

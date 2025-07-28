@@ -1,0 +1,133 @@
+#history{
+    padding: 30px 0 30px 0;
+    display: flex;    
+    flex-flow: row wrap;
+    gap: 40px;
+    justify-content: center;
+    background-color: rgb(0, 0, 49);
+}
+
+#history #left-side{
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#history #left-side img{
+    border-radius: 20px;
+    width: 50vw;
+    height: 80vh;
+}
+
+#history #left-side #slogan{
+    font-size: 4vw;
+    color: darkblue;    
+    background-color: rgb(194, 194, 194);
+    border-radius: 30px;
+    padding: 30px;    
+    font-family: 'Imperial', sans-serif;
+}
+
+#history #container-historia{
+    max-width: 40vw;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    text-align: right;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#history #container-historia h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 3vw;
+}
+
+#history #container-historia p{
+    font-size: 1vw;
+}
+
+
+#history #container-historia a{
+    text-decoration: none;
+    color: darkblue;    
+}
+
+#history #container-historia a:hover{
+    text-decoration: underline;   
+}
+
+@media (max-width: 1024px){
+
+#history{
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#history #left-side{
+    max-width: 100vw;
+    align-items: center;
+}
+#history #left-side img{
+    width: 90vw;
+    height: 50vh;
+}
+
+#history #left-side #slogan{
+    font-size: 5vw;
+    padding: 15px;    
+    max-width: 60vw;
+    
+}
+
+#history #container-historia{
+    max-width: 90vw;
+}
+
+#history #container-historia h1{
+    font-size: 6vw;
+}
+
+#history #container-historia p{
+    font-size: 3vw;
+}
+
+#history #container-historia a{
+    font-size: 3vw;
+}
+
+
+@media (max-width: 768px) {
+
+
+#history #left-side img{
+    width: 90vw;
+    height: 40vh;
+}
+
+#history #left-side #slogan{
+    font-size: 7vw;
+    padding: 15px;    
+    max-width: 60vw;
+    
+}
+
+#history #container-historia h1{
+    font-size: 7vw;
+}
+
+#history #container-historia h2{
+    font-size: 5vw;
+}
+#history #container-historia h3{
+    font-size: 4vw;
+}
+#history #container-historia p{
+    font-size: 4vw;
+}
+
+}
+}

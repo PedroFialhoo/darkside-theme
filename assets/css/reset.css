@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Imperial';
+  src: url('../fonts/ImperialScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
