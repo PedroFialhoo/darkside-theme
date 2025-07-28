@@ -15,7 +15,7 @@
             <div id="container-sobre">
                 <h1>Sobre nós</h1>
                 <p><?php the_field('campo_sobre'); ?></p>
-                <a href="http://localhost/webforce_solutions/history/">Conheça nossa história -></a>
+                <a href="http://localhost/webforce_solutions/history/">Conheça nossa história</a>
             </div>
         </section>
     </main>
