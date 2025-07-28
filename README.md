@@ -1,7 +1,6 @@
 # Darkside Theme - WebForce Solutions
 
-Este é um tema WordPress personalizado desenvolvido para representar o site institucional de uma **empresa fictícia chamada WebForce Solutions**. O projeto foi criado como parte de um teste técnico, focando em estrutura limpa, organização modular e integração com ACF.
-
+Este é um tema WordPress personalizado desenvolvido para representar o site institucional de uma **empresa fictícia chamada WebForce Solutions**.
 > Este tema foi desenvolvido com base no [Underscores Starter Theme](https://underscores.me/), que serviu como fundação para estrutura inicial do WordPress.
 ---
 
@@ -54,15 +53,13 @@ A estrutura do tema segue a organização abaixo:
   - Contato
   - Noticias
 - Página estática separada (`page-history.php`) para contar a história da empresa
-- Campos personalizados com ACF (botões, títulos, textos, links)
+- Campos personalizados com ACF
 - Modularização com `get_template_part()`
 - Integração com API externa para exibir notícias (via `fetch`)
 - Estilo visual moderno com tons escuros e tipografia responsiva
-- Organização profissional de branches Git (main, dev, features)
+- Organização de branches Git (main, dev, features)
 - Formulário de contato funcional com WPForms (inserido via shortcode)
 - Integração com WP Mail SMTP para garantir o envio correto dos e-mails do formulário
-
-
 
 ---
 
@@ -118,5 +115,3 @@ GitHub: [@PedroFialhoo](https://github.com/PedroFialhoo)
 LinkedIn: [linkedin.com/in/pedro-henrique-bittencourt-fialho-2024142b5](https://www.linkedin.com/in/pedro-henrique-bittencourt-fialho-2024142b5)
 
 ---
-
-
