@@ -10,11 +10,12 @@
     <main>
         <section id="sobre">
             <div id="container-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nos.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nos.jpg" alt="Imagem de funcionário representando a empresa">
             </div>
             <div id="container-sobre">
                 <h1>Sobre nós</h1>
                 <p><?php the_field('campo_sobre'); ?></p>
+                <a href="http://localhost/webforce_solutions/history/">Conheça nossa história</a>
             </div>
         </section>
     </main>
